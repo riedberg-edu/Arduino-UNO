@@ -14,3 +14,4 @@ Beispielprogramme für Arduino IDE:
 - hc-sr04 (Ultraschall Entfernungsmessung)
 - ir-remote-control-car (Infrarot Fernbedienung fürs Auto)
 - Robot-Kit-Obstacle-Avoiding-mitRGB (RoboterAuto Steuerung)
+- Neopixel_Demo ( Test für RGB-Led Streifen)
