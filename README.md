@@ -15,3 +15,4 @@ Beispielprogramme für Arduino IDE:
 - ir-remote-control-car (Infrarot Fernbedienung fürs Auto)
 - Robot-Kit-Obstacle-Avoiding-mitRGB (RoboterAuto Steuerung)
 - Neopixel_Demo ( Test für RGB-Led Streifen)
+- IR-Scan (Test Infrarot Fernbedienung)
