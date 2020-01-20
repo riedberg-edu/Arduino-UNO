@@ -1,8 +1,7 @@
 /*
   Button
-
     - 10K resistor attached to pin 2 from ground
- 
+
 */
 
 // constants won't change. They're used here to set pin numbers:
@@ -23,7 +22,7 @@ void setup() {
   pinMode(LedGruen, OUTPUT);
   pinMode(LedRot2, OUTPUT);
   pinMode(LedGruen2, OUTPUT);
- 
+
   pinMode(interruptPin, INPUT);
   Serial.begin(9600);
   attachInterrupt(digitalPinToInterrupt(interruptPin), blink, RISING);
@@ -33,7 +32,7 @@ void loop() {
   delay(20);
   digitalWrite(LedRot2, HIGH);
   digitalWrite(LedGruen2, LOW);
- 
+
   if (FussG) {
     delay(2000);
     digitalWrite(LedGelb, HIGH);
@@ -51,23 +50,23 @@ void loop() {
     digitalWrite(LedRot, LOW);
     delay (4000);
     digitalWrite(LedGruen, LOW);
-    
+
     FussG = LOW;
-    }
-    
+  }
+
   else {
-    
+
     digitalWrite(LedRot, LOW);
     digitalWrite(LedGelb, LOW);
     digitalWrite(LedGruen, HIGH);
     digitalWrite(LedGruen2, LOW);
     digitalWrite(LedRot2, HIGH);
-   
- 
+
+
   }
 
 }
 
 void blink() {
   FussG = HIGH;
-    }
+}
