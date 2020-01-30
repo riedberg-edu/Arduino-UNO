@@ -1,6 +1,6 @@
 #include <Servo.h>
 
-Servo middle, left, right, claw ;  // Creates 4 "servo objects"
+Servo middle, left, right, claw ;  // erzeugt 4 "servo" Objekte
 
 int middlePin = A1;  // Middle Pot Analog Input Pin
 int leftPin = A0;  // Left Pot Analog Input Pin
