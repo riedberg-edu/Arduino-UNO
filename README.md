@@ -10,7 +10,7 @@ Für den Arduino UNO gibt es verschiedene Programmierumgebungen:
 - ........
 
 Beispielprogramme für Arduino IDE:
-- sweep (Servomotor Steuerung)
+- servo-testweep (Servomotor Ansteuerung)
 - hc-sr04 (Ultraschall Entfernungsmessung)
 - ir-remote-control-car (Infrarot Fernbedienung fürs Auto)
 - Robot-Kit-Obstacle-Avoiding-mitRGB (RoboterAuto Steuerung)
