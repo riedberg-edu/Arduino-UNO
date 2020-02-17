@@ -1,23 +1,23 @@
 /*
-  Blink
+  BlinkLed
 
-  Turns an LED on for one second, then off for one second, repeatedly.
-
+  eine LED wird wiederholt ein- und ausgeschaltet
  
 */
-int LedRot = 8;
-// the setup function runs once when you press reset or power the board
+int LedRot = 8;  // Anschluss 8 des Arduino Boards benutzen
+
+// Die setup function wird zu Beginn einmal ausgeführt
 void setup() {
-  // initialize digital pin BlueLEDPin as an output.
+  // initialisiert digital pin LedRot als output.
   pinMode(LedRot, OUTPUT);
 }
 
-// the loop function runs over and over again forever
+// Die loop function wird ständig wiederholt
 void loop() {
-  digitalWrite(LedRot, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(1000);                       // wait for a second
-  digitalWrite(LedRot, LOW);    // turn the LED off by making the voltage LOW
-  delay(1000);                       // wait for a second
+  digitalWrite(LedRot, HIGH);   // schaltet LedRot ein
+  delay(1000);                       // warten
+  digitalWrite(LedRot, LOW);    // schaltet LedRot aus
+  delay(1000);                       // warten
 }
 
 
